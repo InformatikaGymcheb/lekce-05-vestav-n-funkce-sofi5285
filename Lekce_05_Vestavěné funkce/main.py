@@ -34,8 +34,7 @@ print(f"Celková cena košíku je: {zaokrouhleno} Kč")
 
 # Sem doplň kód:
 prumer = sum(ceny_kosiku) / len(ceny_kosiku)
-prumer_zaokrouhleny = round(prumer, 2)
-print(f"Průměrná cena produktu v košíku je: {prumer_zaokrouhleny} Kč")
+print(f"Průměrná cena produktu v košíku je: {prumer:.2f} Kč")
 
 
 # BONUSOVÁ ÚLOHA: Rozdíl
