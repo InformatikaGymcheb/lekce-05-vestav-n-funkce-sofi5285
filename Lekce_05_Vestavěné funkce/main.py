@@ -42,3 +42,5 @@ print(f"Průměrná cena produktu v košíku je: {prumer:.2f} Kč")
 # Výsledek vypiš.
 
 # Sem doplň kód:
+rozdil = max(ceny_kosiku) - min(ceny_kosiku)
+print(f"Nejdražší položka je o {rozdil} Kč dražší než ta nejlevnější.")
